@@ -58,6 +58,10 @@ caption::before {
     content: "표 " counter(caption) ". ";
 }
 
+#abstract {
+    text-align: center;
+}
+
 #headerBar {
     width: 100%;
     background-color: hsl(210, 20%, 98%);
