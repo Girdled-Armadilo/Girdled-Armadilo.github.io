@@ -62,6 +62,37 @@ caption::before {
     text-align: center;
 }
 
+#Menu {
+    width: 100%;
+    background-color: hsl(210, 20%, 98%);
+    /* border-top: 1px solid lightgray; */
+    box-shadow: 0px 0px 8px lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#BottomMenu {
+    width: 97%;
+    margin: 0 auto;
+    max-width: 97ch;
+}
+
+#BottomMenuLeft {
+    float: left;
+}
+
+#BottomMenu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: larger;
+    line-height: 24px;
+}
+
 #headerBar {
     width: 100%;
     background-color: hsl(210, 20%, 98%);
@@ -252,18 +283,6 @@ blockquote cite {
     font-size: large;
     font-style: normal;
     font-weight: bold;
-}
-
-.casterian-share {
-    text-align: left;
-    margin-top: 2rem;
-}
-
-.casterian-comment {
-    margin-top: 1rem;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: black;
 }
 
 .code-file-name {
