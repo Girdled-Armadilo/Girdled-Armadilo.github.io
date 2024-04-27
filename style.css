@@ -83,6 +83,10 @@ caption::before {
     float: left;
 }
 
+#BottomMenuRight {
+    float: right;
+}
+
 #BottomMenu a {
     float: left;
     display: block;
