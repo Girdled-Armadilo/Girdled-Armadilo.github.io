@@ -62,6 +62,10 @@ caption::before {
     text-align: center;
 }
 
+#code {
+    text-align: left;
+}
+
 #Menu {
     width: 100%;
     background-color: hsl(210, 20%, 98%);
@@ -246,19 +250,19 @@ li + p {
 }
 
 table {
-    margin-left: auto;
+    /*margin-left: auto;*/
     margin-right: auto;
     min-width: 25%;
 }
 
 th {
     line-height: 1.4;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 td {
     line-height: 1.4;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 td.right {
@@ -339,3 +343,148 @@ blockquote cite {
 .border-right {
     border-right: 1px solid black;
 }
+
+pre code {
+    font-family: "Consolas", "Noto Sans", "Sans Mono", "Courier", monospace;
+}
+    
+.hljs::selection,
+.hljs span::selection {
+    background: darkgrey !important;
+}
+.hljs-ln-line{
+    font-family: "Consolas", "Noto Sans", "Sans Mono", "Courier", monospace;
+    color: #c5c8c6;
+}
+    
+.hljs-comment{
+    color:#4EC9B0 !important;
+}
+    
+    /* for block of numbers */
+.hljs-ln-numbers:nth-child(n) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: top;
+    text-align: right;
+    
+    padding-right: 10px;
+}
+    
+.hljs-ln-code:nth-child(n) {
+    padding-left: 10px;
+}
+.hljs-ln-code::selection{
+    background: darkgrey;
+}
+
+.hljs {
+    color: #c9d1d9;
+    background: #0d1117;
+  }
+  
+  .hljs-doctag,
+  .hljs-keyword,
+  .hljs-meta .hljs-keyword,
+  .hljs-template-tag,
+  .hljs-template-variable,
+  .hljs-type,
+  .hljs-variable.language_ {
+    /* prettylights-syntax-keyword */
+    color: #ff7b72;
+  }
+  
+  .hljs-title,
+  .hljs-title.class_,
+  .hljs-title.class_.inherited__,
+  .hljs-title.function_ {
+    /* prettylights-syntax-entity */
+    color: #d2a8ff;
+  }
+  
+  .hljs-attr,
+  .hljs-attribute,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-operator,
+  .hljs-variable,
+  .hljs-selector-attr,
+  .hljs-selector-class,
+  .hljs-selector-id {
+    /* prettylights-syntax-constant */
+    color: #79c0ff;
+  }
+  
+  .hljs-regexp,
+  .hljs-string,
+  .hljs-meta .hljs-string {
+    /* prettylights-syntax-string */
+    color: #a5d6ff;
+  }
+  
+  .hljs-built_in,
+  .hljs-symbol {
+    /* prettylights-syntax-variable */
+    color: #ffa657;
+  }
+  
+  .hljs-comment,
+  .hljs-code,
+  .hljs-formula {
+    /* prettylights-syntax-comment */
+    color: #8b949e;
+  }
+  
+  .hljs-name,
+  .hljs-quote,
+  .hljs-selector-tag,
+  .hljs-selector-pseudo {
+    /* prettylights-syntax-entity-tag */
+    color: #7ee787;
+  }
+  
+  .hljs-subst {
+    /* prettylights-syntax-storage-modifier-import */
+    color: #c9d1d9;
+  }
+  
+  .hljs-section {
+    /* prettylights-syntax-markup-heading */
+    color: #1f6feb;
+    font-weight: bold;
+  }
+  
+  .hljs-bullet {
+    /* prettylights-syntax-markup-list */
+    color: #f2cc60;
+  }
+  
+  .hljs-emphasis {
+    /* prettylights-syntax-markup-italic */
+    color: #c9d1d9;
+    font-style: italic;
+  }
+  
+  .hljs-strong {
+    /* prettylights-syntax-markup-bold */
+    color: #c9d1d9;
+    font-weight: bold;
+  }
+  
+  .hljs-addition {
+    /* prettylights-syntax-markup-inserted */
+    color: #aff5b4;
+    background-color: #033a16;
+  }
+  
+  .hljs-deletion {
+    /* prettylights-syntax-markup-deleted */
+    color: #ffdcd7;
+    background-color: #67060c;
+  }
+  
