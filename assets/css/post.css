@@ -98,6 +98,11 @@ main {
   line-height: 1.3rem;
   cursor: pointer;
 }
+footer {
+  font-family: "JetBrains Mono", monospace, "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  color: var(--gray-4);
+}
 
 /* markdown content */
 
