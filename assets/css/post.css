@@ -101,7 +101,7 @@ main {
 footer {
   font-family: "JetBrains Mono", monospace, "Noto Sans KR", sans-serif;
   font-size: 1rem;
-  color: var(--gray-4);
+  color: var(--white-2);
 }
 
 /* markdown content */
