@@ -194,6 +194,8 @@ footer {
 }
 
 .content pre {
+  border-radius: 10px; /* 둥근 모서리 설정 (10px는 원하는 값으로 조정 가능) */
+  overflow: hidden; /* 둥근 모서리에서 내용이 넘치지 않도록 설정 */
   background: var(--gray-3);
   padding: 1rem 2rem;
   margin-bottom: 1.75rem;
