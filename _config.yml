@@ -1,9 +1,9 @@
-title: Axolotl
+title: Axolotl::axtl
 markdown: kramdown
 
 # for atom feed
 author:
-  name: Axolotl
+  name: AXTL
   email: yhc407@kaist.ac.kr
 
 plugins:
